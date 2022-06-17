@@ -1,0 +1,5 @@
+table Icon
+  Caption: Home
+  Icon: /home/username/.idesktop/icons/folder-home-32.png
+  Command[0]: xwf /home/username
+end
