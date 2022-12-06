@@ -29,6 +29,10 @@ If you would like iDesk to be restarted whenever you reload `mlvwm`, it is sugge
 3. Create any additional `~/idesktop/*.lnk` files for icons you would like to appear on your desktop (see [iDesk configuration](http://idesk.sourceforge.net/html/usage.html))
 4. Start or relaunch `idesk`
 
+If icon font sizes appear to be incorrect, especially on high DPI displays, you'll want to set `Xft.dpi` to the appropriate DPI for your display in your `~/.Xdefaults`. For example:
+
+    Xft.dpi: 96
+
 ## ICONS
 
 Some suggested System 7 & MacOS 8/9-like icons include:
