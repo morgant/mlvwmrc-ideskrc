@@ -17,6 +17,11 @@ The following will install the basic `~/.ideskrc` & `~/.idesktop/*` files in you
 
     make install
 
+If you would like iDesk to be restarted whenever you reload `mlvwm`, it is suggested to add the following to the `RestartFunction` block in your `~/.mlvwm/.restartrc`:
+
+    # Restart iDesk
+    Exec "idesk-restart" bin/idesk-restart &
+
 ## USAGE
 
 1. Install your preferred icon files (PNG or SVG) in `~/.idesktop/icons/`
